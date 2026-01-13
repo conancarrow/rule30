@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.controls {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#grid {
+    display: inline-block;
+    border: 1px solid #000;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+.cell.alive {
+    background: #000;
+}
+
+.cell.clickable {
+    cursor: pointer;
+}
+
+.cell.clickable:hover {
+    background: #ccc;
+}
+
+.cell.clickable.alive:hover {
+    background: #333;
+}
