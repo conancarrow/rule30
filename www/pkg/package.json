@@ -1,0 +1,15 @@
+{
+  "name": "rule30",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "rule30_bg.wasm",
+    "rule30.js",
+    "rule30.d.ts"
+  ],
+  "main": "rule30.js",
+  "types": "rule30.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
